@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Coffee ordering - ECMAscript Page </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        
+       <center> <u><h1>Coffee Ordering System</h1></u></center>
+            <div>
+               <center> <h2>Select coffee type</h2>
+   			        <select class="menue" id="menu">
+					<option value="latte" >Latte</option>
+					<option value="Cappuccino" selected>Cappuccino</option>
+					<option value="Flat white" >Flat white</option>
+					<option value="Expresso"  >Expresso</option>
+					<option value="Americano" >Americano</option>
+                </select>
+            </center>
+        <BR>      
+            </div>
+
+
+            <div class="custom1">
+        <h2>Select Size and Milk Choice</h2>
+
+        <table class="tbl1">
+            <tr>
+                <td>
+      <b> <u><p>Size</p></u> </b>
+                <select class="cus" id="size">
+                    <option value="200" >Small</option>
+                    <option value="250" selected>Medium</option>
+                    <option value="300" >Large</option>
+                </select>
+        </br></br>
+    </td>
+    <td>
+        <b> <u> <p>Milk Choices</p></u></b>
+                <select class="cus" id="MilkChoice">
+                    <option value="Whole" >Whole</option>
+                    <option value="Skimmed" >Skimmed</option>
+                    <option value="Semi-skimmed" selected>Semi-skimmed</option>
+                    <option value="Coconut" >Coconut</option>
+                    <option value="Soya" >Soya</option>
+                </select>
+            </br></br>
+            </td>
+            </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+           
+        <div class="custom2">
+            <br>
+        <table class="tbl2">
+            <tr>
+                <td>
+                   <h2>Extras and number of syrup shots</h2>
+                    
+                    
+                    
+                   <b> <u><p>Extras</p></u></b>
+            <div class="cus">
+                <input type="checkbox" id="sugar" />Sugar</br>
+                <input type="checkbox" id="cream" />Cream</br>
+            
+            </td>
+            <td>
+				</br>
+                <b> <u><p> Number of shots of</p></u></b> Syrup:<input type="number" min="0" id="shots" value="1"/>
+            
+            
+    </td>
+    </tr>
+    </table>
+    <br>
+</div>
+        <br>
+        <center>
+        <br>
+        <button type="button" onclick="display()" >ADD TO ORDER</button>
+        <button type="button" onclick="confmsg()">PLACE ORDER</button>
+        </br></br>
+    
+    </td>
+    <td>
+
+			<form id="show" style="display: none;">
+				<table id="tbOrder" width="900px" border="1px">
+					<tr><th colspan="7">Current Order Details</th></tr>
+					<tr><td style="font-weight:bold">Order No</td>
+					    <td style="font-weight:bold">Coffee Menu</td>
+						<td style="font-weight:bold">Milk Choices</td>
+						<td style="font-weight:bold">Extras - Sugar</td>
+						<td style="font-weight:bold">Extras - Cream</td>
+						<td style="font-weight:bold">No of Shots</td>
+						<td style="font-weight:bold">Total Amount</td>
+					</tr>
+				</table>
+				</br>
+                <p> Grand Total:</p><input type="text" id="lblgrandTotal" /> LKR
+            </form>
+       
+        </center>
+    </body>
+</html>

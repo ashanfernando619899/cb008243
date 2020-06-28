@@ -1,0 +1,41 @@
+.tbl1{
+    width: 150%;
+   
+}
+
+.tbl2{
+    width: 98%;
+}
+
+.custom1{
+  
+  border: 4px solid black;
+  width: 50%;
+  background-color: #fffcdb;
+  align-items: center;
+  margin: auto;
+}
+
+.custom2{
+    border: 4px solid black;
+  width: 50%;
+  background-color: #fffcdb;
+  align-items: center;
+  margin: auto;
+}
+
+h2{
+    color: #101820ff;
+}
+h1{
+    color: #b11226;
+    font-family: fantasy;
+}
+
+body{
+    background-color: #86c29c;
+}
+
+#tbOrder{
+    background-color:#fffcdb ;
+}

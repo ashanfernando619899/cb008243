@@ -1,0 +1,45 @@
+.header{
+    overflow:hidden;
+    
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 10px;
+}
+
+h1,h5{
+      color: white;
+}
+
+/*body*/
+
+li{
+  list-style-type: circle;
+}
+
+body{
+  background-color: rgb(99, 4, 4);
+}
+  
+  .center {
+      
+    text-align: center;
+    width: 60%;
+   border: 3px solid black;
+    padding: 20px;
+  }
+  #about{
+    
+    background-color: white;
+    text-align: justify;
+  }
+  #preference{
+    
+    background-color: white;
+    text-align: justify;
+  }
+  #education{
+    
+    background-color: white;
+  }
+  
